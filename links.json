@@ -19,5 +19,9 @@
     "R11": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fhub%2Fhub.txt&position=chrX%3A41733421-41734769",
     "R12": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fhub%2Fhub.txt&position=chrX%3A41734067-41735381",
     "R13": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fhub%2Fhub.txt&position=chrX%3A41741114-41742428"
-  }
+  },
+  "v7_hub_url": "https://raw.githubusercontent.com/JiaGSLab/MPRA-GPR82-browser/main/hub_v7/hub.txt",
+  "v7_ucsc_main": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fhub_v7%2Fhub.txt&position=chrX%3A41703000-41751000",
+  "v7_ucsc_overview": "https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fhub_v7%2Fhub.txt&position=chrX%3A41435000-41755000",
+  "v7_igv_remote": "https://raw.githubusercontent.com/JiaGSLab/MPRA-GPR82-browser/main/igv/GPR82_v7_remote.xml"
 }

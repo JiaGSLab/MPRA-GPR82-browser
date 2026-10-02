@@ -1,0 +1,3 @@
+genome hg38
+trackDb trackDb.txt
+defaultPos chrX:41703000-41751000

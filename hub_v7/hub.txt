@@ -1,0 +1,5 @@
+hub GPR82_Claude_v7
+shortLabel GPR82 Claude v7
+longLabel Claude v7 2000 oligos with macrophage ENCODE and archaic-ALT annotations
+genomesFile genomes.txt
+email guangshuaijia@gmail.com

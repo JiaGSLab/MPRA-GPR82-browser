@@ -4,7 +4,21 @@
 
 C1 与 v7 的逐位点、逐区比较见 [比较报告](metadata/C1_vs_v7_comparison_zh.txt) 与 [比较数据](metadata/C1_vs_v7_summary.json)。
 
-## 一键打开 UCSC
+## Claude v7 专用图与浏览入口
+
+![v7 区域与条数分布](figures/05_v7_distribution.png)
+![v7 主区功能注释](figures/06_v7_annotation.png)
+
+v7 实际条数：R01 **22**、R02 **15**、R03 **94**、R04 **19**、主区 **1638**、对照 **212**，合计 **2000**。按唯一 oligo ID 的主类别计数；区域按窗口中心归属，对照单列。详细数据见 [JSON](metadata/v7_distribution_counts.json) / [CSV](metadata/v7_distribution_counts.csv)。
+
+- [v7 UCSC 主区](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fhub_v7%2Fhub.txt&position=chrX%3A41703000-41751000)
+- [v7 UCSC 全景](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fhub_v7%2Fhub.txt&position=chrX%3A41435000-41755000)
+- [下载 v7 IGV 注释包](https://raw.githubusercontent.com/JiaGSLab/MPRA-GPR82-browser/main/GPR82_v7_IGV_with_annotations.zip)：解压后，在 IGV 的 File → Open Session 打开 `igv/GPR82_v7_local.xml`，参考基因组为 **hg38**，保留 tracks/ 相对目录。
+- [v7 在线 IGV 会话](https://raw.githubusercontent.com/JiaGSLab/MPRA-GPR82-browser/main/igv/GPR82_v7_remote.xml)：下载 XML 后用 File → Open Session 打开，轨道从 GitHub 读取。
+
+v7 专用 Hub 包含 27 个轨道，默认显示 25 个；包含 cCRE、五份巨噬细胞 DNase、巨噬 H3K27ac、单核 H3K27ac 代理、五个条件 STAT3、GPR82 基因模型、rE2G 和 26 个古人类 ALT 位点。注释是项目选定的局部缓存数据；古人类轨道为位点标记，不包含原始 reads/BAM。不会自动同步整个 ENCODE 数据库。密集 oligo 窗口与基因组对照默认隐藏，可按需打开。首次访问 UCSC 可能需要手动完成人机验证。
+
+## 三版本比较：一键打开 UCSC
 
 - [主区：GPR82 与附近证据](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fhub%2Fhub.txt&position=chrX%3A41703000-41751000)
 - [全景：四个远端区域 + 主区](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&hubUrl=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fhub%2Fhub.txt&position=chrX%3A41435000-41755000)
@@ -36,7 +50,7 @@ C1 与 v7 的逐位点、逐区比较见 [比较报告](metadata/C1_vs_v7_compar
 36 个轨道包含：五块设计范围、13 个证据区、邻近基因跨度、GPR82 外显子/CDS、启动子、rE2G 连接区间、cCRE、五份 DNase、巨噬 H3K27ac、单核细胞代理、五个 STAT3 条件、1574 个当前变异、38 个手工位点、26 个古人类 ALT 位点、6 个 Sheet3 重点、691 个拟保留变异、883 个未保留变异、232+346 条扫描、已有单倍型状态及两版基因组窗口。
 
 - 所有 BED 为 **hg38，0-based 半开区间**；浏览器显示为 1-based。仅使用 GRCh38/hg38。
-- 窗口表示 **200 bp insert**，不把 30 nt 接头伪装为基因组坐标。
+- 窗口表示插入片段：**v6 / C1 为 200 bp，v7 为 170 bp**；不包含 30 nt 接头。
 - `gene_spans` 是基因跨度；`gpr82_transcripts` 才是真实缓存外显子模型。设计 TSS 为 41,724,175；canonical 转录本的缓存起点为 41,724,181。
 - 证据轨道是已调用的 **峰区间**，不是测序信号强度；不同来源/条件不等于独立重复。
 - R01/R02 的 cCRE 不在缓存查询范围内；未显示不是阴性。DNase/H3K27ac 来自复核后的原始峰求交。

@@ -1,0 +1,96 @@
+{
+  "version": "Claude-v7-2000-170bp",
+  "pool_sha256": "71b435f3ce5e5f05698267bc27390ba73eb91305afb34fdc69b49e2eb3ad69e0",
+  "unit": "unique oligo_id; primary category; controls counted separately",
+  "region_assignment": "midpoint of exported genomic window; every non-control maps to exactly one broad design interval",
+  "categories": [
+    "证据区扫描",
+    "背景区域扫描",
+    "手工＋古人类 SNV",
+    "其他 SNV",
+    "单倍型",
+    "基因组对照",
+    "无基因组坐标对照"
+  ],
+  "regions": [
+    {
+      "region": "R01",
+      "oligos": 22,
+      "category_counts": {
+        "证据区扫描": 6,
+        "背景区域扫描": 0,
+        "手工＋古人类 SNV": 0,
+        "其他 SNV": 16,
+        "单倍型": 0,
+        "基因组对照": 0,
+        "无基因组坐标对照": 0
+      }
+    },
+    {
+      "region": "R02",
+      "oligos": 15,
+      "category_counts": {
+        "证据区扫描": 10,
+        "背景区域扫描": 1,
+        "手工＋古人类 SNV": 4,
+        "其他 SNV": 0,
+        "单倍型": 0,
+        "基因组对照": 0,
+        "无基因组坐标对照": 0
+      }
+    },
+    {
+      "region": "R03",
+      "oligos": 94,
+      "category_counts": {
+        "证据区扫描": 10,
+        "背景区域扫描": 1,
+        "手工＋古人类 SNV": 4,
+        "其他 SNV": 79,
+        "单倍型": 0,
+        "基因组对照": 0,
+        "无基因组坐标对照": 0
+      }
+    },
+    {
+      "region": "R04",
+      "oligos": 19,
+      "category_counts": {
+        "证据区扫描": 10,
+        "背景区域扫描": 1,
+        "手工＋古人类 SNV": 8,
+        "其他 SNV": 0,
+        "单倍型": 0,
+        "基因组对照": 0,
+        "无基因组坐标对照": 0
+      }
+    },
+    {
+      "region": "主区 MAIN",
+      "oligos": 1638,
+      "category_counts": {
+        "证据区扫描": 214,
+        "背景区域扫描": 245,
+        "手工＋古人类 SNV": 191,
+        "其他 SNV": 986,
+        "单倍型": 2,
+        "基因组对照": 0,
+        "无基因组坐标对照": 0
+      }
+    },
+    {
+      "region": "独立对照",
+      "oligos": 212,
+      "category_counts": {
+        "证据区扫描": 0,
+        "背景区域扫描": 0,
+        "手工＋古人类 SNV": 0,
+        "其他 SNV": 0,
+        "单倍型": 0,
+        "基因组对照": 116,
+        "无基因组坐标对照": 96
+      }
+    }
+  ],
+  "total": 2000
+}

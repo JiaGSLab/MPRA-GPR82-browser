@@ -1,0 +1,145 @@
+{
+  "result": "PASS",
+  "tracks": 27,
+  "visible": 25,
+  "checks": [
+    {
+      "track": "v7_design_scope",
+      "records": 5,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "evidence_regions",
+      "records": 13,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "gene_spans",
+      "records": 12,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "gpr82_transcripts",
+      "records": 4,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "gpr82_promoter",
+      "records": 1,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "re2g",
+      "records": 8,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "ccre",
+      "records": 127,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "dnase_ENCFF580ICE",
+      "records": 32,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "dnase_ENCFF174FFX",
+      "records": 14,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "dnase_ENCFF619TQP",
+      "records": 12,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "dnase_ENCFF586HMB",
+      "records": 37,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "dnase_ENCFF948HMV",
+      "records": 43,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "h3_macrophage_H3K27ac",
+      "records": 17,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "h3_ENCFF560PQQ",
+      "records": 15,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "stat3_IFNg",
+      "records": 4,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "stat3_IFNg-LPS",
+      "records": 4,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "stat3_IL10",
+      "records": 8,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "stat3_LPS",
+      "records": 9,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "stat3_resting",
+      "records": 4,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "manual_38",
+      "records": 38,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "archaic_26",
+      "records": 26,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "sheet3_6",
+      "records": 6,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "claude_v7_variants",
+      "records": 806,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "claude_v7_tiles",
+      "records": 498,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "claude_v7_windows",
+      "records": 1904,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "claude_v7_controls",
+      "records": 116,
+      "roundtrip": "PASS"
+    },
+    {
+      "track": "v7_haplotype_existing",
+      "records": 2,
+      "roundtrip": "PASS"
+    }
+  ],
+  "hub_relative_paths": "PASS",
+  "IGV_local_and_zip_paths": "PASS",
+  "distribution_total": 2000
+}
