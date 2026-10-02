@@ -160,7 +160,7 @@ for i,t in enumerate(tracks):
 (OUT/'hub/hg38/trackDb.txt').write_text('\n'.join(stanzas))
 custom=['browser position chrX:41703000-41751000\n']
 for t in tracks:
-    custom.append(f'track name="{t["title"]}" description="{t["description"]}" type=bed {t["bed_fields"]} visibility={t["visibility"]} itemRgb="On"\n')
+    custom.append(f'track name="{t["title"]}" description="{t["description"]}" type=bed visibility={t["visibility"]} itemRgb="On"\n')
     custom.append((OUT/t['file']).read_text())
 (OUT/'ucsc/GPR82_all_custom_tracks.bed').write_text(''.join(custom))
 

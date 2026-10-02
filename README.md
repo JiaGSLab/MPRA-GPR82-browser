@@ -11,6 +11,8 @@ C1 与 v7 的逐位点、逐区比较见 [比较报告](metadata/C1_vs_v7_compar
 - [备用：加载 BED custom tracks](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chrX%3A41703000-41751000&hgct_customText=https%3A%2F%2Fraw.githubusercontent.com%2FJiaGSLab%2FMPRA-GPR82-browser%2Fmain%2Fucsc%2FGPR82_all_custom_tracks.bed)
 - Hub URL: `https://raw.githubusercontent.com/JiaGSLab/MPRA-GPR82-browser/main/hub/hub.txt`
 
+在线核查：GitHub 文件可访问，bigBed 支持 HTTP 206 分段读取；UCSC 页面当前触发人机验证，首次打开可能需要手动验证。图形页面尚未完成在线渲染确认。本地 36 个 BED/bigBed 回读和 IGV 会话路径检查已通过。
+
 可在 UCSC 的 My Data → Track Hubs → My Hubs / Connected Hubs 输入 Hub URL。轨道下方可调整 dense/pack/full，灰色低优先级或密集窗口轨道默认隐藏，可按需打开。
 
 ## IGV

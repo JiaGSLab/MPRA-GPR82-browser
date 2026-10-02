@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-02",
+  "github_repository": "https://github.com/JiaGSLab/MPRA-GPR82-browser",
+  "raw_hub_http": 200,
+  "raw_trackdb_http": 200,
+  "raw_bigbed_range_http": 206,
+  "raw_bigbed_content_range": "bytes 0-63/39191",
+  "raw_igv_session_http": 200,
+  "UCSC_render_status": "Human-verification page returned; graphical rendering not verified. No CAPTCHA was solved or bypassed.",
+  "local_validation": "36 BED / bigBed round trips passed; local IGV XML resource paths resolve."
+}

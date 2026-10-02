@@ -1,11 +1,11 @@
 browser position chrX:41703000-41751000
-track name="Design scope" description="Five approved design intervals; labels give unique current oligo counts" type=bed 9 visibility=pack itemRgb="On"
+track name="Design scope" description="Five approved design intervals; labels give unique current oligo counts" type=bed visibility=pack itemRgb="On"
 chrX	41442262	41442762	R01|oligos=75|variants=13	0	.	41442262	41442762	40,110,159
 chrX	41559191	41559691	R02|oligos=30|variants=6	0	.	41559191	41559691	40,110,159
 chrX	41634297	41634797	R03|oligos=146|variants=70	0	.	41634297	41634797	40,110,159
 chrX	41689619	41690119	R04|oligos=40|variants=4	0	.	41689619	41690119	40,110,159
 chrX	41704174	41750130	MAIN|oligos=5349|variants=1481	0	.	41704174	41750130	40,110,159
-track name="13 evidence regions" description="Merged evidence regions; region-wide marks do not support every base" type=bed 9 visibility=pack itemRgb="On"
+track name="13 evidence regions" description="Merged evidence regions; region-wide marks do not support every base" type=bed visibility=pack itemRgb="On"
 chrX	41442262	41442762	R01|DNase=5|H3bp=363|rE2G=0.3096222897537214	0	.	41442262	41442762	40,110,159
 chrX	41559191	41559691	R02|DNase=5|H3bp=243|rE2G=0.3017136372640256	0	.	41559191	41559691	40,110,159
 chrX	41634297	41634797	R03|DNase=5|H3bp=494|rE2G=0.2481643049736972	0	.	41634297	41634797	40,110,159
@@ -19,7 +19,7 @@ chrX	41732152	41732632	R10|DNase=1|H3bp=480|rE2G=NA	0	.	41732152	41732632	40,110
 chrX	41733921	41734269	R11|DNase=3|H3bp=0|rE2G=NA	0	.	41733921	41734269	40,110,159
 chrX	41734567	41734881	R12|DNase=4|H3bp=0|rE2G=NA	0	.	41734567	41734881	40,110,159
 chrX	41741614	41741928	R13|DNase=3|H3bp=314|rE2G=NA	0	.	41741614	41741928	40,110,159
-track name="Nearby gene spans" description="Cached Ensembl gene spans; these are NOT exon models" type=bed 9 visibility=pack itemRgb="On"
+track name="Nearby gene spans" description="Cached Ensembl gene spans; these are NOT exon models" type=bed visibility=pack itemRgb="On"
 chrX	41432753	41445931	ENSG00000295508	0	-	41432753	41445931	117,132,147
 chrX	41445382	41475710	NYX	0	+	41445382	41475710	117,132,147
 chrX	41472263	41472653	GEMIN7P1	0	-	41472263	41472653	117,132,147
@@ -32,14 +32,14 @@ chrX	41688967	41699620	GPR34	0	+	41688967	41699620	117,132,147
 chrX	41724174	41730130	GPR82	0	+	41724174	41730130	117,132,147
 chrX	41748221	41748608	RPS15AP39	0	+	41748221	41748608	117,132,147
 chrX	41790191	41790250	ENSG00000237875	0	-	41790191	41790250	117,132,147
-track name="GPR82 transcripts" description="Cached Ensembl exon models; thick blocks are translated coding sequence" type=bed 12 visibility=pack itemRgb="On"
+track name="GPR82 transcripts" description="Cached Ensembl exon models; thick blocks are translated coding sequence" type=bed visibility=pack itemRgb="On"
 chrX	41724174	41728370	ENST00000898141.2|GPR82-203	0	+	41727026	41728037	33,133,121	2	115,1598,	0,2598,
 chrX	41724174	41730130	ENST00001131993.1|GPR82-204	0	+	41727026	41728037	33,133,121	3	115,71,3138,	0,2598,2818,
 chrX	41724180	41730130	ENST00000302548.5|GPR82-201	0	+	41727026	41728037	33,133,121	3	109,71,3138,	0,2592,2812,
 chrX	41728132	41728771	ENST00000497180.1|GPR82-202	0	+	41728132	41728132	33,133,121	2	379,124,	0,515,
-track name="Design promoter" description="Design TSS=chrX:41724175; promoter is -2000 to +500 bp" type=bed 9 visibility=pack itemRgb="On"
+track name="Design promoter" description="Design TSS=chrX:41724175; promoter is -2000 to +500 bp" type=bed visibility=pack itemRgb="On"
 chrX	41722174	41724674	GPR82_promoter_-2000_+500	0	+	41722174	41724674	204,115,51
-track name="rE2G to GPR82" description="Predicted linked element intervals; scores are not proof of causality" type=bed 9 visibility=pack itemRgb="On"
+track name="rE2G to GPR82" description="Predicted linked element intervals; scores are not proof of causality" type=bed visibility=pack itemRgb="On"
 chrX	41442262	41442762	GPR82_link|score=0.3096222897537214	310	.	41442262	41442762	133,99,166
 chrX	41559191	41559691	GPR82_link|score=0.3017136372640256	302	.	41559191	41559691	133,99,166
 chrX	41634297	41634797	GPR82_link|score=0.2481643049736972	248	.	41634297	41634797	133,99,166
@@ -48,7 +48,7 @@ chrX	41705896	41706396	GPR82_link|score=0.8579713781976854	858	.	41705896	417063
 chrX	41719549	41720049	GPR82_link|score=0.4581415429319871	458	.	41719549	41720049	133,99,166
 chrX	41723087	41723587	GPR82_link|score=0.977626007539218	978	.	41723087	41723587	133,99,166
 chrX	41723826	41724404	GPR82_link|score=0.9999962183020008	1000	.	41723826	41724404	133,99,166
-track name="Cached cCREs" description="ENCODE cCRE annotation; cache covers chrX:41624174-41830130 only; distal absence is not negative evidence" type=bed 9 visibility=dense itemRgb="On"
+track name="Cached cCREs" description="ENCODE cCRE annotation; cache covers chrX:41624174-41830130 only; distal absence is not negative evidence" type=bed visibility=dense itemRgb="On"
 chrX	41624336	41624507	EH38E4518768|CA	0	.	41624336	41624507	184,140,58
 chrX	41629503	41629763	EH38E4518769|CA	0	.	41629503	41629763	184,140,58
 chrX	41630130	41630476	EH38E4518770|CA	0	.	41630130	41630476	184,140,58
@@ -176,7 +176,7 @@ chrX	41826258	41826504	EH38E4518795|CA	0	.	41826258	41826504	184,140,58
 chrX	41827935	41828246	EH38E2751662|Distal_enhancer	0	.	41827935	41828246	184,140,58
 chrX	41828921	41829114	EH38E2751663|Distal_enhancer	0	.	41828921	41829114	184,140,58
 chrX	41829853	41830016	EH38E4518796|CA	0	.	41829853	41830016	184,140,58
-track name="ENCFF580ICE DNase" description="inflammatory_male21_baseline; called peak intervals, not signal intensity" type=bed 9 visibility=dense itemRgb="On"
+track name="ENCFF580ICE DNase" description="inflammatory_male21_baseline; called peak intervals, not signal intensity" type=bed visibility=dense itemRgb="On"
 chrX	41442360	41442680	ENCFF580ICE|inflammatory_male21_baseline	0	.	41442360	41442680	43,143,99
 chrX	41443220	41443440	ENCFF580ICE|inflammatory_male21_baseline	0	.	41443220	41443440	43,143,99
 chrX	41449200	41449420	ENCFF580ICE|inflammatory_male21_baseline	0	.	41449200	41449420	43,143,99
@@ -209,7 +209,7 @@ chrX	41723960	41724180	ENCFF580ICE|inflammatory_male21_baseline	0	.	41723960	417
 chrX	41734202	41734260	ENCFF580ICE|inflammatory_male21_baseline	0	.	41734202	41734260	43,143,99
 chrX	41734620	41734812	ENCFF580ICE|inflammatory_male21_baseline	0	.	41734620	41734812	43,143,99
 chrX	41741640	41741860	ENCFF580ICE|inflammatory_male21_baseline	0	.	41741640	41741860	43,143,99
-track name="ENCFF174FFX DNase" description="inflammatory_male40_baseline; called peak intervals, not signal intensity" type=bed 9 visibility=dense itemRgb="On"
+track name="ENCFF174FFX DNase" description="inflammatory_male40_baseline; called peak intervals, not signal intensity" type=bed visibility=dense itemRgb="On"
 chrX	41442335	41442748	ENCFF174FFX|inflammatory_male40_baseline	0	.	41442335	41442748	43,143,99
 chrX	41443209	41443515	ENCFF174FFX|inflammatory_male40_baseline	0	.	41443209	41443515	43,143,99
 chrX	41449203	41449465	ENCFF174FFX|inflammatory_male40_baseline	0	.	41449203	41449465	43,143,99
@@ -224,7 +224,7 @@ chrX	41634333	41634681	ENCFF174FFX|inflammatory_male40_baseline	0	.	41634333	416
 chrX	41689681	41690065	ENCFF174FFX|inflammatory_male40_baseline	0	.	41689681	41690065	43,143,99
 chrX	41706011	41706317	ENCFF174FFX|inflammatory_male40_baseline	0	.	41706011	41706317	43,143,99
 chrX	41723945	41724216	ENCFF174FFX|inflammatory_male40_baseline	0	.	41723945	41724216	43,143,99
-track name="ENCFF619TQP DNase" description="suppressor_male21_baseline; called peak intervals, not signal intensity" type=bed 9 visibility=dense itemRgb="On"
+track name="ENCFF619TQP DNase" description="suppressor_male21_baseline; called peak intervals, not signal intensity" type=bed visibility=dense itemRgb="On"
 chrX	41442320	41442700	ENCFF619TQP|suppressor_male21_baseline	0	.	41442320	41442700	43,143,99
 chrX	41443160	41443480	ENCFF619TQP|suppressor_male21_baseline	0	.	41443160	41443480	43,143,99
 chrX	41449660	41449860	ENCFF619TQP|suppressor_male21_baseline	0	.	41449660	41449860	43,143,99
@@ -237,7 +237,7 @@ chrX	41688940	41689100	ENCFF619TQP|suppressor_male21_baseline	0	.	41688940	41689
 chrX	41706180	41706300	ENCFF619TQP|suppressor_male21_baseline	0	.	41706180	41706300	43,143,99
 chrX	41723983	41724191	ENCFF619TQP|suppressor_male21_baseline	0	.	41723983	41724191	43,143,99
 chrX	41734649	41734830	ENCFF619TQP|suppressor_male21_baseline	0	.	41734649	41734830	43,143,99
-track name="ENCFF586HMB DNase" description="suppressor_male40_baseline; called peak intervals, not signal intensity" type=bed 9 visibility=dense itemRgb="On"
+track name="ENCFF586HMB DNase" description="suppressor_male40_baseline; called peak intervals, not signal intensity" type=bed visibility=dense itemRgb="On"
 chrX	41442283	41442703	ENCFF586HMB|suppressor_male40_baseline	0	.	41442283	41442703	43,143,99
 chrX	41443130	41443472	ENCFF586HMB|suppressor_male40_baseline	0	.	41443130	41443472	43,143,99
 chrX	41449224	41449502	ENCFF586HMB|suppressor_male40_baseline	0	.	41449224	41449502	43,143,99
@@ -275,7 +275,7 @@ chrX	41732152	41732454	ENCFF586HMB|suppressor_male40_baseline	0	.	41732152	41732
 chrX	41734074	41734385	ENCFF586HMB|suppressor_male40_baseline	0	.	41734074	41734385	43,143,99
 chrX	41734597	41734845	ENCFF586HMB|suppressor_male40_baseline	0	.	41734597	41734845	43,143,99
 chrX	41741632	41741925	ENCFF586HMB|suppressor_male40_baseline	0	.	41741632	41741925	43,143,99
-track name="ENCFF948HMV DNase" description="inflammatory_male40_LPS24h; called peak intervals, not signal intensity" type=bed 9 visibility=dense itemRgb="On"
+track name="ENCFF948HMV DNase" description="inflammatory_male40_LPS24h; called peak intervals, not signal intensity" type=bed visibility=dense itemRgb="On"
 chrX	41442333	41442698	ENCFF948HMV|inflammatory_male40_LPS24h	0	.	41442333	41442698	43,143,99
 chrX	41443149	41443468	ENCFF948HMV|inflammatory_male40_LPS24h	0	.	41443149	41443468	43,143,99
 chrX	41449243	41449439	ENCFF948HMV|inflammatory_male40_LPS24h	0	.	41449243	41449439	43,143,99
@@ -319,7 +319,7 @@ chrX	41723927	41724208	ENCFF948HMV|inflammatory_male40_LPS24h	0	.	41723927	41724
 chrX	41733985	41734287	ENCFF948HMV|inflammatory_male40_LPS24h	0	.	41733985	41734287	43,143,99
 chrX	41734616	41734842	ENCFF948HMV|inflammatory_male40_LPS24h	0	.	41734616	41734842	43,143,99
 chrX	41741629	41741879	ENCFF948HMV|inflammatory_male40_LPS24h	0	.	41741629	41741879	43,143,99
-track name="Macrophage H3K27ac" description="GSE80727 control/IL10 union, reciprocal hg19-to-hg38 lift" type=bed 9 visibility=dense itemRgb="On"
+track name="Macrophage H3K27ac" description="GSE80727 control/IL10 union, reciprocal hg19-to-hg38 lift" type=bed visibility=dense itemRgb="On"
 chrX	41442399	41443605	Macrophage_H3K27ac	0	.	41442399	41443605	204,115,51
 chrX	41449303	41450363	Macrophage_H3K27ac	0	.	41449303	41450363	204,115,51
 chrX	41491489	41492490	Macrophage_H3K27ac	0	.	41491489	41492490	204,115,51
@@ -337,7 +337,7 @@ chrX	41719886	41720944	Macrophage_H3K27ac	0	.	41719886	41720944	204,115,51
 chrX	41722963	41724363	Macrophage_H3K27ac	0	.	41722963	41724363	204,115,51
 chrX	41731834	41732835	Macrophage_H3K27ac	0	.	41731834	41732835	204,115,51
 chrX	41740997	41742308	Macrophage_H3K27ac	0	.	41740997	41742308	204,115,51
-track name="Monocyte H3 proxy" description="ENCFF560PQQ monocyte proxy; not macrophage" type=bed 9 visibility=dense itemRgb="On"
+track name="Monocyte H3 proxy" description="ENCFF560PQQ monocyte proxy; not macrophage" type=bed visibility=dense itemRgb="On"
 chrX	41441794	41442355	Monocyte_H3_proxy	0	.	41441794	41442355	218,169,89
 chrX	41442566	41443801	Monocyte_H3_proxy	0	.	41442566	41443801	218,169,89
 chrX	41449472	41450044	Monocyte_H3_proxy	0	.	41449472	41450044	218,169,89
@@ -353,17 +353,17 @@ chrX	41689703	41690179	Monocyte_H3_proxy	0	.	41689703	41690179	218,169,89
 chrX	41704460	41707860	Monocyte_H3_proxy	0	.	41704460	41707860	218,169,89
 chrX	41720076	41720424	Monocyte_H3_proxy	0	.	41720076	41720424	218,169,89
 chrX	41723586	41724074	Monocyte_H3_proxy	0	.	41723586	41724074	218,169,89
-track name="STAT3 IFNg" description="GSE120943 via ReMap2022; IFNg called peaks, not differential binding" type=bed 9 visibility=dense itemRgb="On"
+track name="STAT3 IFNg" description="GSE120943 via ReMap2022; IFNg called peaks, not differential binding" type=bed visibility=dense itemRgb="On"
 chrX	41442219	41442745	STAT3|IFNg|score=18.61963	0	.	41442219	41442745	156,87,142
 chrX	41559478	41559683	STAT3|IFNg|score=3.51051	0	.	41559478	41559683	156,87,142
 chrX	41705964	41706312	STAT3|IFNg|score=7.41776	0	.	41705964	41706312	156,87,142
 chrX	41723973	41724171	STAT3|IFNg|score=7.22646	0	.	41723973	41724171	156,87,142
-track name="STAT3 IFNg-LPS" description="GSE120943 via ReMap2022; IFNg-LPS called peaks, not differential binding" type=bed 9 visibility=dense itemRgb="On"
+track name="STAT3 IFNg-LPS" description="GSE120943 via ReMap2022; IFNg-LPS called peaks, not differential binding" type=bed visibility=dense itemRgb="On"
 chrX	41442146	41442944	STAT3|IFNg-LPS|score=109.05274	0	.	41442146	41442944	156,87,142
 chrX	41527190	41527332	STAT3|IFNg-LPS|score=6.32869	0	.	41527190	41527332	156,87,142
 chrX	41559330	41559695	STAT3|IFNg-LPS|score=10.72499	0	.	41559330	41559695	156,87,142
 chrX	41706029	41706330	STAT3|IFNg-LPS|score=4.09246	0	.	41706029	41706330	156,87,142
-track name="STAT3 IL10" description="GSE120943 via ReMap2022; IL10 called peaks, not differential binding" type=bed 9 visibility=dense itemRgb="On"
+track name="STAT3 IL10" description="GSE120943 via ReMap2022; IL10 called peaks, not differential binding" type=bed visibility=dense itemRgb="On"
 chrX	41442099	41442862	STAT3|IL10|score=212.24438	0	.	41442099	41442862	156,87,142
 chrX	41559298	41559747	STAT3|IL10|score=37.80345	0	.	41559298	41559747	156,87,142
 chrX	41634314	41634456	STAT3|IL10|score=5.72618	0	.	41634314	41634456	156,87,142
@@ -372,7 +372,7 @@ chrX	41693709	41693871	STAT3|IL10|score=10.61459	0	.	41693709	41693871	156,87,14
 chrX	41706023	41706355	STAT3|IL10|score=19.41646	0	.	41706023	41706355	156,87,142
 chrX	41722929	41723071	STAT3|IL10|score=3.5894	0	.	41722929	41723071	156,87,142
 chrX	41723934	41724156	STAT3|IL10|score=11.3928	0	.	41723934	41724156	156,87,142
-track name="STAT3 LPS" description="GSE120943 via ReMap2022; LPS called peaks, not differential binding" type=bed 9 visibility=dense itemRgb="On"
+track name="STAT3 LPS" description="GSE120943 via ReMap2022; LPS called peaks, not differential binding" type=bed visibility=dense itemRgb="On"
 chrX	41442249	41442879	STAT3|LPS|score=240.71545	0	.	41442249	41442879	156,87,142
 chrX	41491752	41491958	STAT3|LPS|score=22.29793	0	.	41491752	41491958	156,87,142
 chrX	41527206	41527343	STAT3|LPS|score=6.36778	0	.	41527206	41527343	156,87,142
@@ -382,12 +382,12 @@ chrX	41693711	41693859	STAT3|LPS|score=5.3509	0	.	41693711	41693859	156,87,142
 chrX	41705987	41706282	STAT3|LPS|score=8.90914	0	.	41705987	41706282	156,87,142
 chrX	41722872	41723057	STAT3|LPS|score=3.59902	0	.	41722872	41723057	156,87,142
 chrX	41723951	41724170	STAT3|LPS|score=8.63226	0	.	41723951	41724170	156,87,142
-track name="STAT3 resting" description="GSE120943 via ReMap2022; resting called peaks, not differential binding" type=bed 9 visibility=dense itemRgb="On"
+track name="STAT3 resting" description="GSE120943 via ReMap2022; resting called peaks, not differential binding" type=bed visibility=dense itemRgb="On"
 chrX	41442373	41442603	STAT3|resting|score=31.26189	0	.	41442373	41442603	156,87,142
 chrX	41527200	41527340	STAT3|resting|score=7.09002	0	.	41527200	41527340	156,87,142
 chrX	41559394	41559565	STAT3|resting|score=4.80898	0	.	41559394	41559565	156,87,142
 chrX	41705959	41706252	STAT3|resting|score=4.43913	0	.	41705959	41706252	156,87,142
-track name="6000: 1574 SNPs" description="Current library distinct substitutions; colours show original tier" type=bed 9 visibility=dense itemRgb="On"
+track name="6000: 1574 SNPs" description="Current library distinct substitutions; colours show original tier" type=bed visibility=dense itemRgb="On"
 chrX	41442280	41442281	chrX:41442281:C:A|tier=5|rs374911537	0	.	41442280	41442281	160,160,160
 chrX	41442281	41442282	chrX:41442282:G:A|tier=5|rs748222379	0	.	41442281	41442282	160,160,160
 chrX	41442309	41442310	chrX:41442310:T:C|tier=2|rs1794671	0	.	41442309	41442310	31,78,160
@@ -1962,7 +1962,7 @@ chrX	41749933	41749934	chrX:41749934:T:C|tier=3|rs192671568	0	.	41749933	4174993
 chrX	41750054	41750055	chrX:41750055:T:C|tier=5|rs185328329	0	.	41750054	41750055	160,160,160
 chrX	41750077	41750078	chrX:41750078:G:A|tier=5|rs1018928589	0	.	41750077	41750078	160,160,160
 chrX	41750124	41750125	chrX:41750125:A:G|tier=3|rs140908404	0	.	41750124	41750125	44,127,184
-track name="Manual: 38 SNPs" description="All 38 currently included user-specified variants" type=bed 9 visibility=pack itemRgb="On"
+track name="Manual: 38 SNPs" description="All 38 currently included user-specified variants" type=bed visibility=pack itemRgb="On"
 chrX	41706388	41706389	chrX:41706389:G:T|tier=0|manual=B4|archaic=Altai,Chagyrskaya	0	.	41706388	41706389	214,39,40
 chrX	41706539	41706540	chrX:41706540:T:C|tier=0|rs5918231|manual=C4|archaic=Altai,Chagyrskaya,Denisova,Vindija	0	.	41706539	41706540	214,39,40
 chrX	41706978	41706979	chrX:41706979:A:T|tier=0|rs112881042|manual=D4	0	.	41706978	41706979	214,39,40
@@ -2001,7 +2001,7 @@ chrX	41730576	41730577	chrX:41730577:C:T|tier=0|rs4827286|manual=AP4	0	.	4173057
 chrX	41730629	41730630	chrX:41730630:T:C|tier=0|rs111294898|manual=AQ4	0	.	41730629	41730630	214,39,40
 chrX	41730636	41730637	chrX:41730637:T:C|tier=0|rs750734136|manual=AR4|archaic=Altai	0	.	41730636	41730637	214,39,40
 chrX	41733790	41733791	chrX:41733791:C:T|tier=0|rs905793266|manual=AS4	0	.	41733790	41733791	214,39,40
-track name="Archaic ALT: 26" description="ALT relative to hg38 in archaic samples; not proven lineage-specific or introgressed" type=bed 9 visibility=pack itemRgb="On"
+track name="Archaic ALT: 26" description="ALT relative to hg38 in archaic samples; not proven lineage-specific or introgressed" type=bed visibility=pack itemRgb="On"
 chrX	41559248	41559249	chrX:41559249:G:A|tier=1|rs2998254|archaic=Altai,Chagyrskaya,Denisova,Vindija	0	.	41559248	41559249	148,103,189
 chrX	41634651	41634652	chrX:41634652:C:T|tier=1|rs5918213|archaic=Altai,Chagyrskaya,Denisova,Vindija	0	.	41634651	41634652	148,103,189
 chrX	41689689	41689690	chrX:41689690:T:C|tier=1|rs5918226|archaic=Altai,Chagyrskaya,Denisova,Vindija	0	.	41689689	41689690	148,103,189
@@ -2028,14 +2028,14 @@ chrX	41738898	41738899	chrX:41738899:C:T|tier=1|rs1017859113|archaic=Denisova	0	
 chrX	41739822	41739823	chrX:41739823:C:T|tier=1|archaic=Altai,Chagyrskaya,Vindija	0	.	41739822	41739823	148,103,189
 chrX	41746590	41746591	chrX:41746591:C:T|tier=1|rs2244325|archaic=Altai,Chagyrskaya,Denisova,Vindija	0	.	41746590	41746591	148,103,189
 chrX	41748043	41748044	chrX:41748044:C:T|tier=1|rs444787|archaic=Altai,Chagyrskaya,Vindija	0	.	41748043	41748044	148,103,189
-track name="Sheet3 focus: 6" description="Six manually prioritized Sheet3 variants" type=bed 9 visibility=pack itemRgb="On"
+track name="Sheet3 focus: 6" description="Six manually prioritized Sheet3 variants" type=bed visibility=pack itemRgb="On"
 chrX	41711429	41711430	chrX:41711430:C:T|tier=0|rs1571441|manual=O4	0	.	41711429	41711430	230,137,25
 chrX	41714312	41714313	chrX:41714313:T:C|tier=0|rs6609159|manual=S4	0	.	41714312	41714313	230,137,25
 chrX	41714610	41714611	chrX:41714611:C:G|tier=0|rs6609160|manual=T4	0	.	41714610	41714611	230,137,25
 chrX	41714860	41714861	chrX:41714861:A:C|tier=0|manual=U4|archaic=Denisova	0	.	41714860	41714861	230,137,25
 chrX	41717039	41717040	chrX:41717040:T:C|tier=0|rs867098667|manual=Y4	0	.	41717039	41717040	230,137,25
 chrX	41724481	41724482	chrX:41724482:G:A|tier=0|manual=AE4|archaic=Denisova	0	.	41724481	41724482	230,137,25
-track name="C1-2000: 691 SNPs" description="Codex C1-2000 planning proposal only; 691 variants, not synthesis-ready" type=bed 9 visibility=dense itemRgb="On"
+track name="C1-2000: 691 SNPs" description="Codex C1-2000 planning proposal only; 691 variants, not synthesis-ready" type=bed visibility=dense itemRgb="On"
 chrX	41442280	41442281	chrX:41442281:C:A|tier=5|rs374911537	0	.	41442280	41442281	33,133,121
 chrX	41442281	41442282	chrX:41442282:G:A|tier=5|rs748222379	0	.	41442281	41442282	33,133,121
 chrX	41442309	41442310	chrX:41442310:T:C|tier=2|rs1794671	0	.	41442309	41442310	33,133,121
@@ -2727,7 +2727,7 @@ chrX	41749649	41749650	chrX:41749650:G:T|tier=2|rs5918235	0	.	41749649	41749650	
 chrX	41749885	41749886	chrX:41749886:C:T|tier=2|rs111586582	0	.	41749885	41749886	33,133,121
 chrX	41749933	41749934	chrX:41749934:T:C|tier=3|rs192671568	0	.	41749933	41749934	33,133,121
 chrX	41750124	41750125	chrX:41750125:A:G|tier=3|rs140908404	0	.	41750124	41750125	33,133,121
-track name="Not retained: 883" description="Current variants absent from the 2000-slot proposal" type=bed 9 visibility=hide itemRgb="On"
+track name="Not retained: 883" description="Current variants absent from the 2000-slot proposal" type=bed visibility=hide itemRgb="On"
 chrX	41559264	41559265	chrX:41559265:C:T|tier=5|rs754282186	0	.	41559264	41559265	180,180,180
 chrX	41634750	41634751	chrX:41634751:T:C|tier=5|rs777267086	0	.	41634750	41634751	180,180,180
 chrX	41690101	41690102	chrX:41690102:G:A|tier=5|rs928862274	0	.	41690101	41690102	180,180,180
@@ -3611,7 +3611,7 @@ chrX	41749786	41749787	chrX:41749787:G:A|tier=5|rs748803303	0	.	41749786	4174978
 chrX	41749801	41749802	chrX:41749802:T:C|tier=5|rs929428156	0	.	41749801	41749802	180,180,180
 chrX	41750054	41750055	chrX:41750055:T:C|tier=5|rs185328329	0	.	41750054	41750055	180,180,180
 chrX	41750077	41750078	chrX:41750078:G:A|tier=5|rs1018928589	0	.	41750077	41750078	180,180,180
-track name="Claude v7: 806 SNPs" description="Claude v7 actual 2000 oligos, 170-bp inserts; compare with C1-2000 proposal" type=bed 9 visibility=dense itemRgb="On"
+track name="Claude v7: 806 SNPs" description="Claude v7 actual 2000 oligos, 170-bp inserts; compare with C1-2000 proposal" type=bed visibility=dense itemRgb="On"
 chrX	41442309	41442310	chrX:41442310:T:C|tier=2|rs1794671	0	.	41442309	41442310	193,112,43
 chrX	41442418	41442419	chrX:41442419:C:T|tier=2|rs5963986	0	.	41442418	41442419	193,112,43
 chrX	41442560	41442561	chrX:41442561:C:T|tier=3|rs186959936	0	.	41442560	41442561	193,112,43
@@ -4418,7 +4418,7 @@ chrX	41749649	41749650	chrX:41749650:G:T|tier=2|rs5918235	0	.	41749649	41749650	
 chrX	41749885	41749886	chrX:41749886:C:T|tier=2|rs111586582	0	.	41749885	41749886	193,112,43
 chrX	41749933	41749934	chrX:41749934:T:C|tier=3|rs192671568	0	.	41749933	41749934	193,112,43
 chrX	41750124	41750125	chrX:41750125:A:G|tier=3|rs140908404	0	.	41750124	41750125	193,112,43
-track name="C1-only SNPs" description="Variants in C1-2000 but absent from Claude v7" type=bed 9 visibility=hide itemRgb="On"
+track name="C1-only SNPs" description="Variants in C1-2000 but absent from Claude v7" type=bed visibility=hide itemRgb="On"
 chrX	41442280	41442281	chrX:41442281:C:A|tier=5|rs374911537	0	.	41442280	41442281	33,133,121
 chrX	41442281	41442282	chrX:41442282:G:A|tier=5|rs748222379	0	.	41442281	41442282	33,133,121
 chrX	41442416	41442417	chrX:41442417:T:C|tier=5|rs777538107	0	.	41442416	41442417	33,133,121
@@ -4477,7 +4477,7 @@ chrX	41741883	41741884	chrX:41741884:C:T|tier=4|rs979335137	0	.	41741883	4174188
 chrX	41741901	41741902	chrX:41741902:T:C|tier=4|rs1023718174	0	.	41741901	41741902	33,133,121
 chrX	41741902	41741903	chrX:41741903:C:T|tier=4|rs1415305484	0	.	41741902	41741903	33,133,121
 chrX	41741912	41741913	chrX:41741913:C:T|tier=4|rs926165429	0	.	41741912	41741913	33,133,121
-track name="v7-only SNPs" description="Variants in Claude v7 but absent from C1-2000" type=bed 9 visibility=hide itemRgb="On"
+track name="v7-only SNPs" description="Variants in Claude v7 but absent from C1-2000" type=bed visibility=hide itemRgb="On"
 chrX	41705887	41705888	chrX:41705888:C:T|tier=4|rs2067877642	0	.	41705887	41705888	193,112,43
 chrX	41705888	41705889	chrX:41705889:G:A|tier=4|rs2067877758	0	.	41705888	41705889	193,112,43
 chrX	41705890	41705891	chrX:41705891:C:T|tier=4|rs945347849	0	.	41705890	41705891	193,112,43
@@ -4651,7 +4651,7 @@ chrX	41729706	41729707	chrX:41729707:G:A|tier=5|rs540534993	0	.	41729706	4172970
 chrX	41739640	41739641	chrX:41739641:T:C|tier=5|rs548985533	0	.	41739640	41739641	193,112,43
 chrX	41744538	41744539	chrX:41744539:T:A|tier=5|rs538437035	0	.	41744538	41744539	193,112,43
 chrX	41749298	41749299	chrX:41749299:A:C|tier=5|rs139851893	0	.	41749298	41749299	193,112,43
-track name="Claude v7 tiles" description="498 actual 170-bp scanning inserts in Claude v7" type=bed 9 visibility=dense itemRgb="On"
+track name="Claude v7 tiles" description="498 actual 170-bp scanning inserts in Claude v7" type=bed visibility=dense itemRgb="On"
 chrX	41442262	41442432	GPR82v7_00001	0	+	41442262	41442432	193,112,43
 chrX	41442262	41442432	GPR82v7_00002	0	-	41442262	41442432	193,112,43
 chrX	41442562	41442732	GPR82v7_00003	0	+	41442562	41442732	193,112,43
@@ -5150,7 +5150,7 @@ chrX	41748884	41749054	GPR82v7_00495	0	+	41748884	41749054	193,112,43
 chrX	41749054	41749224	GPR82v7_00496	0	+	41749054	41749224	193,112,43
 chrX	41749564	41749734	GPR82v7_00497	0	+	41749564	41749734	193,112,43
 chrX	41749734	41749904	GPR82v7_00498	0	+	41749734	41749904	193,112,43
-track name="v7: 170bp windows" description="Actual v7 insert footprints; 56 ladder-control ends corrected from source to 170 bp" type=bed 9 visibility=hide itemRgb="On"
+track name="v7: 170bp windows" description="Actual v7 insert footprints; 56 ladder-control ends corrected from source to 170 bp" type=bed visibility=hide itemRgb="On"
 chr1	47233594	47233764	GPR82v7_00699|control_erythroid	0	+	47233594	47233764	193,112,43
 chr1	47233594	47233764	GPR82v7_00700|control_erythroid	0	-	47233594	47233764	193,112,43
 chr1	47233679	47233849	GPR82v7_00701|control_erythroid	0	+	47233679	47233849	193,112,43
@@ -7055,7 +7055,7 @@ chrX	77910608	77910778	GPR82v7_00659|control_constitutive	0	+	77910608	77910778	
 chrX	77910608	77910778	GPR82v7_00660|control_constitutive	0	-	77910608	77910778	193,112,43
 chrX	77910693	77910863	GPR82v7_00661|control_constitutive	0	+	77910693	77910863	193,112,43
 chrX	77910693	77910863	GPR82v7_00662|control_constitutive	0	-	77910693	77910863	193,112,43
-track name="v7 genomic controls" description="Genomic controls only; corrected 170-bp ladder footprints, shuffles and vectors unplaced" type=bed 9 visibility=hide itemRgb="On"
+track name="v7 genomic controls" description="Genomic controls only; corrected 170-bp ladder footprints, shuffles and vectors unplaced" type=bed visibility=hide itemRgb="On"
 chr1	47233594	47233764	GPR82v7_00699|control_erythroid	0	+	47233594	47233764	193,112,43
 chr1	47233594	47233764	GPR82v7_00700|control_erythroid	0	-	47233594	47233764	193,112,43
 chr1	47233679	47233849	GPR82v7_00701|control_erythroid	0	+	47233679	47233849	193,112,43
@@ -7172,7 +7172,7 @@ chrX	77910608	77910778	GPR82v7_00659|control_constitutive	0	+	77910608	77910778	
 chrX	77910608	77910778	GPR82v7_00660|control_constitutive	0	-	77910608	77910778	193,112,43
 chrX	77910693	77910863	GPR82v7_00661|control_constitutive	0	+	77910693	77910863	193,112,43
 chrX	77910693	77910863	GPR82v7_00662|control_constitutive	0	-	77910693	77910863	193,112,43
-track name="232 evidence tiles" description="Existing 200-bp insert genomic footprints; preserved in the proposal" type=bed 9 visibility=dense itemRgb="On"
+track name="232 evidence tiles" description="Existing 200-bp insert genomic footprints; preserved in the proposal" type=bed visibility=dense itemRgb="On"
 chrX	41442262	41442462	GPR82v6_00001	0	+	41442262	41442462	40,110,159
 chrX	41442262	41442462	GPR82v6_00002	0	-	41442262	41442462	40,110,159
 chrX	41442562	41442762	GPR82v6_00003	0	+	41442562	41442762	40,110,159
@@ -7405,7 +7405,7 @@ chrX	41741714	41741914	GPR82v6_00229	0	+	41741714	41741914	40,110,159
 chrX	41741714	41741914	GPR82v6_00230	0	-	41741714	41741914	40,110,159
 chrX	41741728	41741928	GPR82v6_00231	0	+	41741728	41741928	40,110,159
 chrX	41741728	41741928	GPR82v6_00232	0	-	41741728	41741928	40,110,159
-track name="346 survey tiles" description="Existing 200-bp insert genomic footprints; preserved in the proposal" type=bed 9 visibility=dense itemRgb="On"
+track name="346 survey tiles" description="Existing 200-bp insert genomic footprints; preserved in the proposal" type=bed visibility=dense itemRgb="On"
 chrX	41704174	41704374	GPR82v6_00233	0	+	41704174	41704374	139,182,170
 chrX	41704274	41704474	GPR82v6_00234	0	+	41704274	41704474	139,182,170
 chrX	41704374	41704574	GPR82v6_00235	0	+	41704374	41704574	139,182,170
@@ -7752,10 +7752,10 @@ chrX	41749474	41749674	GPR82v6_00575	0	+	41749474	41749674	139,182,170
 chrX	41749574	41749774	GPR82v6_00576	0	+	41749574	41749774	139,182,170
 chrX	41749674	41749874	GPR82v6_00577	0	+	41749674	41749874	139,182,170
 chrX	41749774	41749974	GPR82v6_00578	0	+	41749774	41749974	139,182,170
-track name="Haplotype REF+AB" description="Two existing states only; the two proposed A/B single mutants are NOT yet designed" type=bed 9 visibility=pack itemRgb="On"
+track name="Haplotype REF+AB" description="Two existing states only; the two proposed A/B single mutants are NOT yet designed" type=bed visibility=pack itemRgb="On"
 chrX	41706360	41706560	GPR82v6_01043|archaic_haplotype_REF	0	+	41706360	41706560	199,31,160
 chrX	41706360	41706560	GPR82v6_01044|archaic_haplotype_ALT	0	+	41706360	41706560	199,31,160
-track name="6000 insert windows" description="200-bp genomic insert footprints, NOT 230-nt oligos; adapters have no genomic coordinates" type=bed 9 visibility=hide itemRgb="On"
+track name="6000 insert windows" description="200-bp genomic insert footprints, NOT 230-nt oligos; adapters have no genomic coordinates" type=bed visibility=hide itemRgb="On"
 chr1	47233524	47233724	GPR82v6_00927|control_erythroid	0	+	47233524	47233724	85,114,151
 chr1	47233524	47233724	GPR82v6_00928|control_erythroid	0	-	47233524	47233724	85,114,151
 chr1	47233624	47233824	GPR82v6_00929|control_erythroid	0	+	47233624	47233824	85,114,151
@@ -13602,7 +13602,7 @@ chrX	77910538	77910738	GPR82v6_00887|control_constitutive	0	+	77910538	77910738	
 chrX	77910538	77910738	GPR82v6_00888|control_constitutive	0	-	77910538	77910738	85,114,151
 chrX	77910638	77910838	GPR82v6_00889|control_constitutive	0	+	77910638	77910838	85,114,151
 chrX	77910638	77910838	GPR82v6_00890|control_constitutive	0	-	77910638	77910838	85,114,151
-track name="C1-2000 windows" description="200-bp genomic insert footprints, NOT 230-nt oligos; adapters have no genomic coordinates" type=bed 9 visibility=hide itemRgb="On"
+track name="C1-2000 windows" description="200-bp genomic insert footprints, NOT 230-nt oligos; adapters have no genomic coordinates" type=bed visibility=hide itemRgb="On"
 chr1	149734750	149734950	GPR82v6_00911|control_myeloid	0	+	149734750	149734950	33,133,121
 chr1	149734750	149734950	GPR82v6_00912|control_myeloid	0	-	149734750	149734950	33,133,121
 chr1	149734850	149735050	GPR82v6_00913|control_myeloid	0	+	149734850	149735050	33,133,121
