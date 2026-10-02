@@ -1,0 +1,119 @@
+[
+  {
+    "region": "R01",
+    "interval": "chrX:41,442,263–41,442,762",
+    "c1_variants": 13,
+    "v7_variants": 7,
+    "c1_scan_bp": 400,
+    "v7_scan_bp": 370,
+    "region_bp": 500
+  },
+  {
+    "region": "R02",
+    "interval": "chrX:41,559,192–41,559,691",
+    "c1_variants": 5,
+    "v7_variants": 1,
+    "c1_scan_bp": 500,
+    "v7_scan_bp": 500,
+    "region_bp": 500
+  },
+  {
+    "region": "R03",
+    "interval": "chrX:41,634,298–41,634,797",
+    "c1_variants": 69,
+    "v7_variants": 68,
+    "c1_scan_bp": 500,
+    "v7_scan_bp": 500,
+    "region_bp": 500
+  },
+  {
+    "region": "R04",
+    "interval": "chrX:41,689,620–41,690,119",
+    "c1_variants": 3,
+    "v7_variants": 2,
+    "c1_scan_bp": 500,
+    "v7_scan_bp": 500,
+    "region_bp": 500
+  },
+  {
+    "region": "R05",
+    "interval": "chrX:41,704,726–41,705,169",
+    "c1_variants": 44,
+    "v7_variants": 44,
+    "c1_scan_bp": 444,
+    "v7_scan_bp": 444,
+    "region_bp": 444
+  },
+  {
+    "region": "R06",
+    "interval": "chrX:41,705,804–41,706,396",
+    "c1_variants": 99,
+    "v7_variants": 104,
+    "c1_scan_bp": 593,
+    "v7_scan_bp": 593,
+    "region_bp": 593
+  },
+  {
+    "region": "R07",
+    "interval": "chrX:41,708,454–41,708,803",
+    "c1_variants": 2,
+    "v7_variants": 2,
+    "c1_scan_bp": 350,
+    "v7_scan_bp": 350,
+    "region_bp": 350
+  },
+  {
+    "region": "R08",
+    "interval": "chrX:41,719,550–41,720,049",
+    "c1_variants": 14,
+    "v7_variants": 11,
+    "c1_scan_bp": 500,
+    "v7_scan_bp": 500,
+    "region_bp": 500
+  },
+  {
+    "region": "R09",
+    "interval": "chrX:41,722,175–41,730,130",
+    "c1_variants": 125,
+    "v7_variants": 282,
+    "c1_scan_bp": 7656,
+    "v7_scan_bp": 7826,
+    "region_bp": 7956
+  },
+  {
+    "region": "R10",
+    "interval": "chrX:41,732,153–41,732,632",
+    "c1_variants": 42,
+    "v7_variants": 7,
+    "c1_scan_bp": 480,
+    "v7_scan_bp": 480,
+    "region_bp": 480
+  },
+  {
+    "region": "R11",
+    "interval": "chrX:41,733,922–41,734,269",
+    "c1_variants": 1,
+    "v7_variants": 1,
+    "c1_scan_bp": 348,
+    "v7_scan_bp": 348,
+    "region_bp": 348
+  },
+  {
+    "region": "R12",
+    "interval": "chrX:41,734,568–41,734,881",
+    "c1_variants": 3,
+    "v7_variants": 3,
+    "c1_scan_bp": 314,
+    "v7_scan_bp": 314,
+    "region_bp": 314
+  },
+  {
+    "region": "R13",
+    "interval": "chrX:41,741,615–41,741,928",
+    "c1_variants": 60,
+    "v7_variants": 55,
+    "c1_scan_bp": 314,
+    "v7_scan_bp": 314,
+    "region_bp": 314
+  }
+]

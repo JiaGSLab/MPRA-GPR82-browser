@@ -1,0 +1,323 @@
+track design_scope
+shortLabel Design scope
+longLabel Five approved design intervals; labels give unique current oligo counts
+type bigBed 9
+bigDataUrl design_scope.bb
+visibility pack
+itemRgb on
+priority 1
+
+track evidence_regions
+shortLabel 13 evidence regions
+longLabel Merged evidence regions; region-wide marks do not support every base
+type bigBed 9
+bigDataUrl evidence_regions.bb
+visibility pack
+itemRgb on
+priority 2
+
+track gene_spans
+shortLabel Nearby gene spans
+longLabel Cached Ensembl gene spans; these are NOT exon models
+type bigBed 9
+bigDataUrl gene_spans.bb
+visibility pack
+itemRgb on
+priority 3
+
+track gpr82_transcripts
+shortLabel GPR82 transcripts
+longLabel Cached Ensembl exon models; thick blocks are translated coding sequence
+type bigBed 12
+bigDataUrl gpr82_transcripts.bb
+visibility pack
+itemRgb on
+priority 4
+
+track gpr82_promoter
+shortLabel Design promoter
+longLabel Design TSS=chrX:41724175; promoter is -2000 to +500 bp
+type bigBed 9
+bigDataUrl gpr82_promoter.bb
+visibility pack
+itemRgb on
+priority 5
+
+track re2g
+shortLabel rE2G to GPR82
+longLabel Predicted linked element intervals; scores are not proof of causality
+type bigBed 9
+bigDataUrl re2g.bb
+visibility pack
+itemRgb on
+priority 6
+
+track ccre
+shortLabel Cached cCREs
+longLabel ENCODE cCRE annotation; cache covers chrX:41624174-41830130 only; distal absence is not negative evidence
+type bigBed 9
+bigDataUrl ccre.bb
+visibility dense
+itemRgb on
+priority 7
+
+track dnase_ENCFF580ICE
+shortLabel ENCFF580ICE DNase
+longLabel inflammatory_male21_baseline; called peak intervals, not signal intensity
+type bigBed 9
+bigDataUrl dnase_ENCFF580ICE.bb
+visibility dense
+itemRgb on
+priority 8
+
+track dnase_ENCFF174FFX
+shortLabel ENCFF174FFX DNase
+longLabel inflammatory_male40_baseline; called peak intervals, not signal intensity
+type bigBed 9
+bigDataUrl dnase_ENCFF174FFX.bb
+visibility dense
+itemRgb on
+priority 9
+
+track dnase_ENCFF619TQP
+shortLabel ENCFF619TQP DNase
+longLabel suppressor_male21_baseline; called peak intervals, not signal intensity
+type bigBed 9
+bigDataUrl dnase_ENCFF619TQP.bb
+visibility dense
+itemRgb on
+priority 10
+
+track dnase_ENCFF586HMB
+shortLabel ENCFF586HMB DNase
+longLabel suppressor_male40_baseline; called peak intervals, not signal intensity
+type bigBed 9
+bigDataUrl dnase_ENCFF586HMB.bb
+visibility dense
+itemRgb on
+priority 11
+
+track dnase_ENCFF948HMV
+shortLabel ENCFF948HMV DNase
+longLabel inflammatory_male40_LPS24h; called peak intervals, not signal intensity
+type bigBed 9
+bigDataUrl dnase_ENCFF948HMV.bb
+visibility dense
+itemRgb on
+priority 12
+
+track h3_macrophage_H3K27ac
+shortLabel Macrophage H3K27ac
+longLabel GSE80727 control/IL10 union, reciprocal hg19-to-hg38 lift
+type bigBed 9
+bigDataUrl h3_macrophage_H3K27ac.bb
+visibility dense
+itemRgb on
+priority 13
+
+track h3_ENCFF560PQQ
+shortLabel Monocyte H3 proxy
+longLabel ENCFF560PQQ monocyte proxy; not macrophage
+type bigBed 9
+bigDataUrl h3_ENCFF560PQQ.bb
+visibility dense
+itemRgb on
+priority 14
+
+track stat3_IFNg
+shortLabel STAT3 IFNg
+longLabel GSE120943 via ReMap2022; IFNg called peaks, not differential binding
+type bigBed 9
+bigDataUrl stat3_IFNg.bb
+visibility dense
+itemRgb on
+priority 15
+
+track stat3_IFNg-LPS
+shortLabel STAT3 IFNg-LPS
+longLabel GSE120943 via ReMap2022; IFNg-LPS called peaks, not differential binding
+type bigBed 9
+bigDataUrl stat3_IFNg-LPS.bb
+visibility dense
+itemRgb on
+priority 16
+
+track stat3_IL10
+shortLabel STAT3 IL10
+longLabel GSE120943 via ReMap2022; IL10 called peaks, not differential binding
+type bigBed 9
+bigDataUrl stat3_IL10.bb
+visibility dense
+itemRgb on
+priority 17
+
+track stat3_LPS
+shortLabel STAT3 LPS
+longLabel GSE120943 via ReMap2022; LPS called peaks, not differential binding
+type bigBed 9
+bigDataUrl stat3_LPS.bb
+visibility dense
+itemRgb on
+priority 18
+
+track stat3_resting
+shortLabel STAT3 resting
+longLabel GSE120943 via ReMap2022; resting called peaks, not differential binding
+type bigBed 9
+bigDataUrl stat3_resting.bb
+visibility dense
+itemRgb on
+priority 19
+
+track variants_6000
+shortLabel 6000: 1574 SNPs
+longLabel Current library distinct substitutions; colours show original tier
+type bigBed 9
+bigDataUrl variants_6000.bb
+visibility dense
+itemRgb on
+priority 20
+
+track manual_38
+shortLabel Manual: 38 SNPs
+longLabel All 38 currently included user-specified variants
+type bigBed 9
+bigDataUrl manual_38.bb
+visibility pack
+itemRgb on
+priority 21
+
+track archaic_26
+shortLabel Archaic ALT: 26
+longLabel ALT relative to hg38 in archaic samples; not proven lineage-specific or introgressed
+type bigBed 9
+bigDataUrl archaic_26.bb
+visibility pack
+itemRgb on
+priority 22
+
+track sheet3_6
+shortLabel Sheet3 focus: 6
+longLabel Six manually prioritized Sheet3 variants
+type bigBed 9
+bigDataUrl sheet3_6.bb
+visibility pack
+itemRgb on
+priority 23
+
+track variants_plan2000
+shortLabel C1-2000: 691 SNPs
+longLabel Codex C1-2000 planning proposal only; 691 variants, not synthesis-ready
+type bigBed 9
+bigDataUrl variants_plan2000.bb
+visibility dense
+itemRgb on
+priority 24
+
+track variants_not_retained
+shortLabel Not retained: 883
+longLabel Current variants absent from the 2000-slot proposal
+type bigBed 9
+bigDataUrl variants_not_retained.bb
+visibility hide
+itemRgb on
+priority 25
+
+track claude_v7_variants
+shortLabel Claude v7: 806 SNPs
+longLabel Claude v7 actual 2000 oligos, 170-bp inserts; compare with C1-2000 proposal
+type bigBed 9
+bigDataUrl claude_v7_variants.bb
+visibility dense
+itemRgb on
+priority 26
+
+track c1_only_variants
+shortLabel C1-only SNPs
+longLabel Variants in C1-2000 but absent from Claude v7
+type bigBed 9
+bigDataUrl c1_only_variants.bb
+visibility hide
+itemRgb on
+priority 27
+
+track v7_only_variants
+shortLabel v7-only SNPs
+longLabel Variants in Claude v7 but absent from C1-2000
+type bigBed 9
+bigDataUrl v7_only_variants.bb
+visibility hide
+itemRgb on
+priority 28
+
+track claude_v7_tiles
+shortLabel Claude v7 tiles
+longLabel 498 actual 170-bp scanning inserts in Claude v7
+type bigBed 9
+bigDataUrl claude_v7_tiles.bb
+visibility dense
+itemRgb on
+priority 29
+
+track claude_v7_windows
+shortLabel v7: 170bp windows
+longLabel Actual v7 insert footprints; 56 ladder-control ends corrected from source to 170 bp
+type bigBed 9
+bigDataUrl claude_v7_windows.bb
+visibility hide
+itemRgb on
+priority 30
+
+track claude_v7_controls
+shortLabel v7 genomic controls
+longLabel Genomic controls only; corrected 170-bp ladder footprints, shuffles and vectors unplaced
+type bigBed 9
+bigDataUrl claude_v7_controls.bb
+visibility hide
+itemRgb on
+priority 31
+
+track evidence_tiles
+shortLabel 232 evidence tiles
+longLabel Existing 200-bp insert genomic footprints; preserved in the proposal
+type bigBed 9
+bigDataUrl evidence_tiles.bb
+visibility dense
+itemRgb on
+priority 32
+
+track survey_tiles
+shortLabel 346 survey tiles
+longLabel Existing 200-bp insert genomic footprints; preserved in the proposal
+type bigBed 9
+bigDataUrl survey_tiles.bb
+visibility dense
+itemRgb on
+priority 33
+
+track haplotype_existing
+shortLabel Haplotype REF+AB
+longLabel Two existing states only; the two proposed A/B single mutants are NOT yet designed
+type bigBed 9
+bigDataUrl haplotype_existing.bb
+visibility pack
+itemRgb on
+priority 34
+
+track windows_6000
+shortLabel 6000 insert windows
+longLabel 200-bp genomic insert footprints, NOT 230-nt oligos; adapters have no genomic coordinates
+type bigBed 9
+bigDataUrl windows_6000.bb
+visibility hide
+itemRgb on
+priority 35
+
+track windows_plan2000
+shortLabel C1-2000 windows
+longLabel 200-bp genomic insert footprints, NOT 230-nt oligos; adapters have no genomic coordinates
+type bigBed 9
+bigDataUrl windows_plan2000.bb
+visibility hide
+itemRgb on
+priority 36

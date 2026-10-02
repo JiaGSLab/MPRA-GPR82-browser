@@ -1,0 +1,157 @@
+{
+  "status": "PLANNING DRY RUN ONLY — not a Twist order",
+  "existing_oligos": 1998,
+  "reserved_new_haplotype_single_mutants": 2,
+  "total_slots": 2000,
+  "planned_variant_count": 691,
+  "planned_reading_count": 841,
+  "incidental_complete_reading_count": 841,
+  "incidental_complete_variant_count": 691,
+  "archaic_ALT_total": 26,
+  "archaic_ALT_retained": 26,
+  "focus_total": 6,
+  "focus_retained": 6,
+  "retained_variants_by_original_tier": {
+    "3": 173,
+    "4": 409,
+    "1": 14,
+    "0": 38,
+    "2": 41,
+    "5": 16
+  },
+  "tier5_evidence_rescue_candidate_count": 16,
+  "stages": [
+    {
+      "stage": "区域扫描",
+      "new_oligos": 578,
+      "variants": 0,
+      "contrasts": 0
+    },
+    {
+      "stage": "对照",
+      "new_oligos": 160,
+      "variants": 0,
+      "contrasts": 0
+    },
+    {
+      "stage": "单倍型四状态",
+      "new_oligos": 4,
+      "variants": 0,
+      "contrasts": 0
+    },
+    {
+      "stage": "手工重点",
+      "new_oligos": 240,
+      "variants": 38,
+      "contrasts": 120
+    },
+    {
+      "stage": "古人类补充",
+      "new_oligos": 84,
+      "variants": 14,
+      "contrasts": 42
+    },
+    {
+      "stage": "常见变异",
+      "new_oligos": 160,
+      "variants": 41,
+      "contrasts": 81
+    },
+    {
+      "stage": "低频变异",
+      "new_oligos": 293,
+      "variants": 173,
+      "contrasts": 173
+    },
+    {
+      "stage": "稀有与补充位点",
+      "new_oligos": 481,
+      "variants": 425,
+      "contrasts": 425
+    }
+  ],
+  "controls": {
+    "genomic_negative_control": 50,
+    "dinucleotide_shuffle_control": 60,
+    "putative_activity_control": 20,
+    "control_vector": 2,
+    "control_constitutive": 10,
+    "control_myeloid": 12,
+    "control_erythroid": 6
+  },
+  "retained_vendor_flagged_existing_oligos": 20,
+  "original_category_counts": {
+    "region_tile": 232,
+    "locus_survey_tile": 346,
+    "putative_activity_control": 50,
+    "genomic_negative_control": 100,
+    "dinucleotide_shuffle_control": 150,
+    "control_vector": 4,
+    "control_constitutive": 20,
+    "control_myeloid": 12,
+    "control_erythroid": 24,
+    "manual_SNV_REF": 261,
+    "manual_SNV_ALT": 265,
+    "archaic_SNV_REF": 92,
+    "archaic_SNV_ALT": 94,
+    "archaic_haplotype_REF": 1,
+    "archaic_haplotype_ALT": 1,
+    "common_SNV_REF": 258,
+    "common_SNV_ALT": 267,
+    "low_frequency_SNV_REF": 1005,
+    "low_frequency_SNV_ALT": 1137,
+    "rare_evidence_SNV_REF": 126,
+    "rare_evidence_SNV_ALT": 880,
+    "backfill_SNV_REF": 198,
+    "backfill_SNV_ALT": 477
+  },
+  "existing_primary_categories_retained": {
+    "locus_survey_tile": 346,
+    "low_frequency_SNV_ALT": 173,
+    "region_tile": 232,
+    "rare_evidence_SNV_REF": 48,
+    "rare_evidence_SNV_ALT": 409,
+    "backfill_SNV_REF": 8,
+    "common_SNV_REF": 79,
+    "common_SNV_ALT": 81,
+    "manual_SNV_REF": 120,
+    "archaic_SNV_ALT": 42,
+    "manual_SNV_ALT": 120,
+    "dinucleotide_shuffle_control": 60,
+    "low_frequency_SNV_REF": 120,
+    "control_myeloid": 12,
+    "genomic_negative_control": 50,
+    "putative_activity_control": 20,
+    "archaic_SNV_REF": 42,
+    "backfill_SNV_ALT": 16,
+    "control_constitutive": 10,
+    "control_vector": 2,
+    "control_erythroid": 6,
+    "archaic_haplotype_REF": 1,
+    "archaic_haplotype_ALT": 1
+  },
+  "chosen_context_counts_by_tier": {
+    "0": {
+      "3": 32,
+      "4": 6
+    },
+    "1": {
+      "3": 14
+    },
+    "2": {
+      "2": 40,
+      "1": 1
+    },
+    "3": {
+      "1": 173
+    },
+    "4": {
+      "1": 409
+    },
+    "5": {
+      "1": 16
+    }
+  },
+  "sequence_length": "200 bp insert + 30 bp adapters = 230 nt, unchanged",
+  "caveat": "Two haplotype single-mutant slots are reserved, not synthesized/designed/QC-validated in this dry run. Controls are proposed, not experimentally validated."
+}

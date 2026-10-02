@@ -1,0 +1,12 @@
+{
+  "assembly": "hg38",
+  "track_count": 36,
+  "current_variants": 1574,
+  "planned_variants": 691,
+  "current_oligos": 6000,
+  "current_genomically_mapped": 5846,
+  "current_unmapped": 154,
+  "proposed_existing": 1998,
+  "proposed_existing_mapped": 1936,
+  "reserved_undesigned": 2
+}

@@ -1,0 +1,85 @@
+{
+  "c1_version": "C1-2000",
+  "c1_basis": "v6 frozen pool; 1998 existing sequences + 2 undesigned slots",
+  "v7_version": "Claude-v7-2000-170bp",
+  "c1_insert_bp": 200,
+  "v7_insert_bp": 170,
+  "c1_oligo_nt": 230,
+  "v7_oligo_nt": 200,
+  "c1_variants": 691,
+  "v7_variants": 806,
+  "shared_variants": 633,
+  "c1_only": 58,
+  "v7_only": 173,
+  "v7_variants_outside_original_v6": [],
+  "c1_tiling_oligos": 578,
+  "v7_tiling_oligos": 498,
+  "c1_covered_bp": 45736,
+  "v7_covered_bp": 44656,
+  "design_scope_bp": 47956,
+  "v7_controls": 212,
+  "v7_categories": {
+    "region_tile": 250,
+    "locus_survey_tile": 248,
+    "genomic_negative_control": 60,
+    "dinucleotide_shuffle_control": 90,
+    "control_vector": 6,
+    "control_constitutive": 20,
+    "control_myeloid": 12,
+    "control_erythroid": 24,
+    "manual_SNV_REF": 75,
+    "manual_SNV_ALT": 76,
+    "archaic_SNV_REF": 28,
+    "archaic_SNV_ALT": 28,
+    "archaic_haplotype_REF": 1,
+    "archaic_haplotype_ALT": 1,
+    "common_SNV_REF": 78,
+    "common_SNV_ALT": 80,
+    "low_frequency_SNV_REF": 123,
+    "low_frequency_SNV_ALT": 173,
+    "rescued_SNV_ALT": 12,
+    "rescued_SNV_REF": 3,
+    "rare_evidence_SNV_REF": 84,
+    "rare_evidence_SNV_ALT": 528
+  },
+  "v7_manual": 38,
+  "v7_archaic_ALT": 26,
+  "v7_focus": 6,
+  "c1_manual_genomic_backgrounds": {
+    "3": 38
+  },
+  "v7_manual_genomic_backgrounds": {
+    "1": 38
+  },
+  "c1_ancestry_common_retained": 123,
+  "v7_ancestry_common_retained": 134,
+  "ancestry_common_in_v6": 134,
+  "v7_haplotype_states": {
+    "REF": {
+      "forward_id": "GPR82v7_00814",
+      "reverse_id": null
+    },
+    "A": {
+      "forward_id": null,
+      "reverse_id": null
+    },
+    "B": {
+      "forward_id": null,
+      "reverse_id": null
+    },
+    "AB": {
+      "forward_id": "GPR82v7_00815",
+      "reverse_id": null
+    }
+  },
+  "v7_haplotype_flanks": [
+    9,
+    9
+  ],
+  "v7_annotation_discrepancy_count": 7,
+  "v7_export_control_span_errors": 56,
+  "v7_pairs_checked": 897,
+  "v7_unique_readings": 897,
+  "v7_pool_sha256": "71b435f3ce5e5f05698267bc27390ba73eb91305afb34fdc69b49e2eb3ad69e0",
+  "v7_summary_reported_oligo_nt": 230
+}

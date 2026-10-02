@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Session genome="hg38" locus="chrX:41435000-41755000" version="8">
+  <Resources>
+    <Resource path="../tracks/design_scope.bed" name="Design scope" />
+    <Resource path="../tracks/evidence_regions.bed" name="13 evidence regions" />
+    <Resource path="../tracks/gene_spans.bed" name="Nearby gene spans" />
+    <Resource path="../tracks/gpr82_transcripts.bed" name="GPR82 transcripts" />
+    <Resource path="../tracks/gpr82_promoter.bed" name="Design promoter" />
+    <Resource path="../tracks/re2g.bed" name="rE2G to GPR82" />
+    <Resource path="../tracks/ccre.bed" name="Cached cCREs" />
+    <Resource path="../tracks/dnase_ENCFF580ICE.bed" name="ENCFF580ICE DNase" />
+    <Resource path="../tracks/dnase_ENCFF174FFX.bed" name="ENCFF174FFX DNase" />
+    <Resource path="../tracks/dnase_ENCFF619TQP.bed" name="ENCFF619TQP DNase" />
+    <Resource path="../tracks/dnase_ENCFF586HMB.bed" name="ENCFF586HMB DNase" />
+    <Resource path="../tracks/dnase_ENCFF948HMV.bed" name="ENCFF948HMV DNase" />
+    <Resource path="../tracks/h3_macrophage_H3K27ac.bed" name="Macrophage H3K27ac" />
+    <Resource path="../tracks/h3_ENCFF560PQQ.bed" name="Monocyte H3 proxy" />
+    <Resource path="../tracks/stat3_IFNg.bed" name="STAT3 IFNg" />
+    <Resource path="../tracks/stat3_IFNg-LPS.bed" name="STAT3 IFNg-LPS" />
+    <Resource path="../tracks/stat3_IL10.bed" name="STAT3 IL10" />
+    <Resource path="../tracks/stat3_LPS.bed" name="STAT3 LPS" />
+    <Resource path="../tracks/stat3_resting.bed" name="STAT3 resting" />
+    <Resource path="../tracks/variants_6000.bed" name="6000: 1574 SNPs" />
+    <Resource path="../tracks/manual_38.bed" name="Manual: 38 SNPs" />
+    <Resource path="../tracks/archaic_26.bed" name="Archaic ALT: 26" />
+    <Resource path="../tracks/sheet3_6.bed" name="Sheet3 focus: 6" />
+    <Resource path="../tracks/variants_plan2000.bed" name="C1-2000: 691 SNPs" />
+    <Resource path="../tracks/claude_v7_variants.bed" name="Claude v7: 806 SNPs" />
+    <Resource path="../tracks/claude_v7_tiles.bed" name="Claude v7 tiles" />
+    <Resource path="../tracks/evidence_tiles.bed" name="232 evidence tiles" />
+    <Resource path="../tracks/survey_tiles.bed" name="346 survey tiles" />
+    <Resource path="../tracks/haplotype_existing.bed" name="Haplotype REF+AB" />
+  </Resources>
+  <Panel name="DataPanel">
+    <Track id="../tracks/design_scope.bed" name="Design scope" displayMode="EXPANDED" height="45" visible="true" />
+    <Track id="../tracks/evidence_regions.bed" name="13 evidence regions" displayMode="EXPANDED" height="45" visible="true" />
+    <Track id="../tracks/gene_spans.bed" name="Nearby gene spans" displayMode="EXPANDED" height="45" visible="true" />
+    <Track id="../tracks/gpr82_transcripts.bed" name="GPR82 transcripts" displayMode="EXPANDED" height="45" visible="true" />
+    <Track id="../tracks/gpr82_promoter.bed" name="Design promoter" displayMode="EXPANDED" height="45" visible="true" />
+    <Track id="../tracks/re2g.bed" name="rE2G to GPR82" displayMode="EXPANDED" height="45" visible="true" />
+    <Track id="../tracks/ccre.bed" name="Cached cCREs" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/dnase_ENCFF580ICE.bed" name="ENCFF580ICE DNase" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/dnase_ENCFF174FFX.bed" name="ENCFF174FFX DNase" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/dnase_ENCFF619TQP.bed" name="ENCFF619TQP DNase" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/dnase_ENCFF586HMB.bed" name="ENCFF586HMB DNase" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/dnase_ENCFF948HMV.bed" name="ENCFF948HMV DNase" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/h3_macrophage_H3K27ac.bed" name="Macrophage H3K27ac" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/h3_ENCFF560PQQ.bed" name="Monocyte H3 proxy" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/stat3_IFNg.bed" name="STAT3 IFNg" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/stat3_IFNg-LPS.bed" name="STAT3 IFNg-LPS" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/stat3_IL10.bed" name="STAT3 IL10" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/stat3_LPS.bed" name="STAT3 LPS" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/stat3_resting.bed" name="STAT3 resting" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/variants_6000.bed" name="6000: 1574 SNPs" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/manual_38.bed" name="Manual: 38 SNPs" displayMode="EXPANDED" height="45" visible="true" />
+    <Track id="../tracks/archaic_26.bed" name="Archaic ALT: 26" displayMode="EXPANDED" height="45" visible="true" />
+    <Track id="../tracks/sheet3_6.bed" name="Sheet3 focus: 6" displayMode="EXPANDED" height="45" visible="true" />
+    <Track id="../tracks/variants_plan2000.bed" name="C1-2000: 691 SNPs" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/claude_v7_variants.bed" name="Claude v7: 806 SNPs" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/claude_v7_tiles.bed" name="Claude v7 tiles" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/evidence_tiles.bed" name="232 evidence tiles" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/survey_tiles.bed" name="346 survey tiles" displayMode="COLLAPSED" height="25" visible="true" />
+    <Track id="../tracks/haplotype_existing.bed" name="Haplotype REF+AB" displayMode="EXPANDED" height="45" visible="true" />
+  </Panel>
+</Session>

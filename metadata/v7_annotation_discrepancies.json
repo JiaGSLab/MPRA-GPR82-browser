@@ -1,0 +1,51 @@
+[
+  {
+    "variant_id": "chrX:41442310:T:C",
+    "old_dnase_count": 0,
+    "corrected_dnase_count": 1,
+    "old_H3": "False",
+    "corrected_H3": false
+  },
+  {
+    "variant_id": "chrX:41442419:C:T",
+    "old_dnase_count": 0,
+    "corrected_dnase_count": 5,
+    "old_H3": "False",
+    "corrected_H3": true
+  },
+  {
+    "variant_id": "chrX:41442650:C:G",
+    "old_dnase_count": 0,
+    "corrected_dnase_count": 5,
+    "old_H3": "False",
+    "corrected_H3": true
+  },
+  {
+    "variant_id": "chrX:41442561:C:T",
+    "old_dnase_count": 0,
+    "corrected_dnase_count": 5,
+    "old_H3": "False",
+    "corrected_H3": true
+  },
+  {
+    "variant_id": "chrX:41442626:G:A",
+    "old_dnase_count": 0,
+    "corrected_dnase_count": 5,
+    "old_H3": "False",
+    "corrected_H3": true
+  },
+  {
+    "variant_id": "chrX:41442750:G:A",
+    "old_dnase_count": 0,
+    "corrected_dnase_count": 0,
+    "old_H3": "False",
+    "corrected_H3": true
+  },
+  {
+    "variant_id": "chrX:41442564:G:A",
+    "old_dnase_count": 0,
+    "corrected_dnase_count": 5,
+    "old_H3": "False",
+    "corrected_H3": true
+  }
+]

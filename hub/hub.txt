@@ -1,0 +1,5 @@
+hub GPR82_MPRA
+shortLabel GPR82 MPRA
+longLabel GPR82 hg38: v6, Codex C1-2000 proposal, Claude v7
+genomesFile genomes.txt
+email guangshuaijia@gmail.com

@@ -1,0 +1,326 @@
+[
+  {
+    "id": "design_scope",
+    "title": "Design scope",
+    "description": "Five approved design intervals; labels give unique current oligo counts",
+    "count": 5,
+    "visibility": "pack",
+    "bed_fields": 9,
+    "file": "tracks/design_scope.bed"
+  },
+  {
+    "id": "evidence_regions",
+    "title": "13 evidence regions",
+    "description": "Merged evidence regions; region-wide marks do not support every base",
+    "count": 13,
+    "visibility": "pack",
+    "bed_fields": 9,
+    "file": "tracks/evidence_regions.bed"
+  },
+  {
+    "id": "gene_spans",
+    "title": "Nearby gene spans",
+    "description": "Cached Ensembl gene spans; these are NOT exon models",
+    "count": 12,
+    "visibility": "pack",
+    "bed_fields": 9,
+    "file": "tracks/gene_spans.bed"
+  },
+  {
+    "id": "gpr82_transcripts",
+    "title": "GPR82 transcripts",
+    "description": "Cached Ensembl exon models; thick blocks are translated coding sequence",
+    "count": 4,
+    "visibility": "pack",
+    "bed_fields": 12,
+    "file": "tracks/gpr82_transcripts.bed"
+  },
+  {
+    "id": "gpr82_promoter",
+    "title": "Design promoter",
+    "description": "Design TSS=chrX:41724175; promoter is -2000 to +500 bp",
+    "count": 1,
+    "visibility": "pack",
+    "bed_fields": 9,
+    "file": "tracks/gpr82_promoter.bed"
+  },
+  {
+    "id": "re2g",
+    "title": "rE2G to GPR82",
+    "description": "Predicted linked element intervals; scores are not proof of causality",
+    "count": 8,
+    "visibility": "pack",
+    "bed_fields": 9,
+    "file": "tracks/re2g.bed"
+  },
+  {
+    "id": "ccre",
+    "title": "Cached cCREs",
+    "description": "ENCODE cCRE annotation; cache covers chrX:41624174-41830130 only; distal absence is not negative evidence",
+    "count": 127,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/ccre.bed"
+  },
+  {
+    "id": "dnase_ENCFF580ICE",
+    "title": "ENCFF580ICE DNase",
+    "description": "inflammatory_male21_baseline; called peak intervals, not signal intensity",
+    "count": 32,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/dnase_ENCFF580ICE.bed"
+  },
+  {
+    "id": "dnase_ENCFF174FFX",
+    "title": "ENCFF174FFX DNase",
+    "description": "inflammatory_male40_baseline; called peak intervals, not signal intensity",
+    "count": 14,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/dnase_ENCFF174FFX.bed"
+  },
+  {
+    "id": "dnase_ENCFF619TQP",
+    "title": "ENCFF619TQP DNase",
+    "description": "suppressor_male21_baseline; called peak intervals, not signal intensity",
+    "count": 12,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/dnase_ENCFF619TQP.bed"
+  },
+  {
+    "id": "dnase_ENCFF586HMB",
+    "title": "ENCFF586HMB DNase",
+    "description": "suppressor_male40_baseline; called peak intervals, not signal intensity",
+    "count": 37,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/dnase_ENCFF586HMB.bed"
+  },
+  {
+    "id": "dnase_ENCFF948HMV",
+    "title": "ENCFF948HMV DNase",
+    "description": "inflammatory_male40_LPS24h; called peak intervals, not signal intensity",
+    "count": 43,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/dnase_ENCFF948HMV.bed"
+  },
+  {
+    "id": "h3_macrophage_H3K27ac",
+    "title": "Macrophage H3K27ac",
+    "description": "GSE80727 control/IL10 union, reciprocal hg19-to-hg38 lift",
+    "count": 17,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/h3_macrophage_H3K27ac.bed"
+  },
+  {
+    "id": "h3_ENCFF560PQQ",
+    "title": "Monocyte H3 proxy",
+    "description": "ENCFF560PQQ monocyte proxy; not macrophage",
+    "count": 15,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/h3_ENCFF560PQQ.bed"
+  },
+  {
+    "id": "stat3_IFNg",
+    "title": "STAT3 IFNg",
+    "description": "GSE120943 via ReMap2022; IFNg called peaks, not differential binding",
+    "count": 4,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/stat3_IFNg.bed"
+  },
+  {
+    "id": "stat3_IFNg-LPS",
+    "title": "STAT3 IFNg-LPS",
+    "description": "GSE120943 via ReMap2022; IFNg-LPS called peaks, not differential binding",
+    "count": 4,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/stat3_IFNg-LPS.bed"
+  },
+  {
+    "id": "stat3_IL10",
+    "title": "STAT3 IL10",
+    "description": "GSE120943 via ReMap2022; IL10 called peaks, not differential binding",
+    "count": 8,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/stat3_IL10.bed"
+  },
+  {
+    "id": "stat3_LPS",
+    "title": "STAT3 LPS",
+    "description": "GSE120943 via ReMap2022; LPS called peaks, not differential binding",
+    "count": 9,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/stat3_LPS.bed"
+  },
+  {
+    "id": "stat3_resting",
+    "title": "STAT3 resting",
+    "description": "GSE120943 via ReMap2022; resting called peaks, not differential binding",
+    "count": 4,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/stat3_resting.bed"
+  },
+  {
+    "id": "variants_6000",
+    "title": "6000: 1574 SNPs",
+    "description": "Current library distinct substitutions; colours show original tier",
+    "count": 1574,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/variants_6000.bed"
+  },
+  {
+    "id": "manual_38",
+    "title": "Manual: 38 SNPs",
+    "description": "All 38 currently included user-specified variants",
+    "count": 38,
+    "visibility": "pack",
+    "bed_fields": 9,
+    "file": "tracks/manual_38.bed"
+  },
+  {
+    "id": "archaic_26",
+    "title": "Archaic ALT: 26",
+    "description": "ALT relative to hg38 in archaic samples; not proven lineage-specific or introgressed",
+    "count": 26,
+    "visibility": "pack",
+    "bed_fields": 9,
+    "file": "tracks/archaic_26.bed"
+  },
+  {
+    "id": "sheet3_6",
+    "title": "Sheet3 focus: 6",
+    "description": "Six manually prioritized Sheet3 variants",
+    "count": 6,
+    "visibility": "pack",
+    "bed_fields": 9,
+    "file": "tracks/sheet3_6.bed"
+  },
+  {
+    "id": "variants_plan2000",
+    "title": "C1-2000: 691 SNPs",
+    "description": "Codex C1-2000 planning proposal only; 691 variants, not synthesis-ready",
+    "count": 691,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/variants_plan2000.bed"
+  },
+  {
+    "id": "variants_not_retained",
+    "title": "Not retained: 883",
+    "description": "Current variants absent from the 2000-slot proposal",
+    "count": 883,
+    "visibility": "hide",
+    "bed_fields": 9,
+    "file": "tracks/variants_not_retained.bed"
+  },
+  {
+    "id": "claude_v7_variants",
+    "title": "Claude v7: 806 SNPs",
+    "description": "Claude v7 actual 2000 oligos, 170-bp inserts; compare with C1-2000 proposal",
+    "count": 806,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/claude_v7_variants.bed"
+  },
+  {
+    "id": "c1_only_variants",
+    "title": "C1-only SNPs",
+    "description": "Variants in C1-2000 but absent from Claude v7",
+    "count": 58,
+    "visibility": "hide",
+    "bed_fields": 9,
+    "file": "tracks/c1_only_variants.bed"
+  },
+  {
+    "id": "v7_only_variants",
+    "title": "v7-only SNPs",
+    "description": "Variants in Claude v7 but absent from C1-2000",
+    "count": 173,
+    "visibility": "hide",
+    "bed_fields": 9,
+    "file": "tracks/v7_only_variants.bed"
+  },
+  {
+    "id": "claude_v7_tiles",
+    "title": "Claude v7 tiles",
+    "description": "498 actual 170-bp scanning inserts in Claude v7",
+    "count": 498,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/claude_v7_tiles.bed"
+  },
+  {
+    "id": "claude_v7_windows",
+    "title": "v7: 170bp windows",
+    "description": "Actual v7 insert footprints; 56 ladder-control ends corrected from source to 170 bp",
+    "count": 1904,
+    "visibility": "hide",
+    "bed_fields": 9,
+    "file": "tracks/claude_v7_windows.bed"
+  },
+  {
+    "id": "claude_v7_controls",
+    "title": "v7 genomic controls",
+    "description": "Genomic controls only; corrected 170-bp ladder footprints, shuffles and vectors unplaced",
+    "count": 116,
+    "visibility": "hide",
+    "bed_fields": 9,
+    "file": "tracks/claude_v7_controls.bed"
+  },
+  {
+    "id": "evidence_tiles",
+    "title": "232 evidence tiles",
+    "description": "Existing 200-bp insert genomic footprints; preserved in the proposal",
+    "count": 232,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/evidence_tiles.bed"
+  },
+  {
+    "id": "survey_tiles",
+    "title": "346 survey tiles",
+    "description": "Existing 200-bp insert genomic footprints; preserved in the proposal",
+    "count": 346,
+    "visibility": "dense",
+    "bed_fields": 9,
+    "file": "tracks/survey_tiles.bed"
+  },
+  {
+    "id": "haplotype_existing",
+    "title": "Haplotype REF+AB",
+    "description": "Two existing states only; the two proposed A/B single mutants are NOT yet designed",
+    "count": 2,
+    "visibility": "pack",
+    "bed_fields": 9,
+    "file": "tracks/haplotype_existing.bed"
+  },
+  {
+    "id": "windows_6000",
+    "title": "6000 insert windows",
+    "description": "200-bp genomic insert footprints, NOT 230-nt oligos; adapters have no genomic coordinates",
+    "count": 5846,
+    "visibility": "hide",
+    "bed_fields": 9,
+    "file": "tracks/windows_6000.bed"
+  },
+  {
+    "id": "windows_plan2000",
+    "title": "C1-2000 windows",
+    "description": "200-bp genomic insert footprints, NOT 230-nt oligos; adapters have no genomic coordinates",
+    "count": 1936,
+    "visibility": "hide",
+    "bed_fields": 9,
+    "file": "tracks/windows_plan2000.bed"
+  }
+]
